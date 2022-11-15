@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Random name</title>
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.Mnv-WsnNx9KpXvdgfiqvlwAAAA?pid=ImgDet&rs=1">
+</head>
+<style>
+    .myform {
+    border: 8px outset rgb(149, 129, 26);
+    background-color: rgb(255, 255, 255);    
+    position: absolute;
+    top: 80px;
+    left: 800px;
+    height: 596px;
+    width: 45%;  
+}
+    .header {
+    color: #a39126;
+    text-align: center;
+    size: 10cm;
+}
+    .image {
+    position:absolute;
+    left: 40px;
+    }
+</style>
+
+<body style="background-color:#1e1b1e;">
+    <div class="header"><h1>Coctail Bar Menu</h1></div>
+    <div class="image"><img src="D:\SEDC\Project1\Imag\coctailmenu.jpg" width = "750" height = "611"></img></div>
+    <div class="myform">
+        <form>
+        <fieldset>
+            <legend>ORDER HERE</legend>
+            <span>Premium Drinks:</span>
+            <br>
+            <input type="checkbox" id="rasberry daiquiri">
+            <label for="rasberry daiquiri">Rasberry Daiquiri 20$</label>
+            <br>
+            <input type="checkbox" id="mango margarita">
+            <label for="mango margarita">Mango Margarita 15$</label>
+            <br>
+            <input type="checkbox" id="whiskey sour">
+            <label for="whiskey sour">Whiskey Sour 30$</label>
+            <br>
+            <input type="checkbox" id="green apple martini">
+            <label for="green apple martini">Green Apple Martini 20$</label>
+            <br>
+            <input type="checkbox" id="gin fizz">
+            <label for="gin fizz">Gin Fizz 12$</label>
+            <br>
+
+            <span>Molecular/Special:</span>
+            <br>
+            <input type="checkbox" id="applewood rye negroni">
+            <label for="applewood rye negroni">Applewood Rye Negroni 30$</label>
+            <br>
+            <input type="checkbox" id="creme brulee varadero">
+            <label for="creme brulee varadero">Creme Brulee Varadero 35$</label>
+            <br>
+            <input type="checkbox" id="sweet and salty margarita">
+            <label for="sweet and salty margarita">Sweet and Salty Margarita 40$</label>
+            <br>
+            <input type="checkbox" id="espresso pot plant">
+            <label for="espresso pot plant">Espresso Pot Plant 25$</label>
+            <br>
+
+            <span>Toppings:</span>
+            <br>
+            <input type="radio" id="lemon" name="lemon">
+            <label for="lemon">Lemon 5$</label>
+            <br>
+            <input type="radio" id="watermelon" name="watermelon">
+            <label for="watermelon">Watermelon 5$</label>
+            <br>
+            <input type="radio" id="orange" name="orange">
+            <label for="radio">Orange 5$</label>
+            <br>
+            <input type="radio" id="ice" name="ice">
+            <label for="ice">Extra Ice 2$</label>
+            <br>
+            <br>
+
+            <label for="del"></label>
+            <select>
+                <option value="">Please select delivery or pick up</option>
+                <option value="pickup">pick up</option>
+                <option value="delivery">delivery</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="comment">Comment:</label>
+            <br>
+            <textarea id="comment" cols="50" rows="4">Don't leave a comment!</textarea>
+            <br>
+
+            <label for="tip">Tip for driver:</label>
+            <br>
+            <input type="value" id="tip">
+            <br>
+            <br>
+            <br>
+
+            <input type="submit" value="Order">
+            <input type="reset" value="Cancel">
+        </fieldset>
+    </form>
+</div>
+    
+</body>
+</html>
